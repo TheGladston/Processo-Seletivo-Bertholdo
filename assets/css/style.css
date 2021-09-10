@@ -1,0 +1,790 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&family=Roboto:wght@100&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+
+
+header {
+    font-family: Poppins, sans-serif;
+}
+
+.btn-geral {
+    font-family: Poppins, sans-serif;
+}
+
+/* Topo Header */
+
+.bg-color-top  {
+    background: rgb(193, 1, 1);
+}
+
+.fa-arrow-right {
+    display: inline-block;
+    position: relative;
+    top: 2px;
+    margin-left: 10px;
+}
+
+/* Fim Topo Header */
+
+
+
+/* Navbar */
+
+.bg-red {
+    background: red;
+}
+
+.font-logo {
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.font-menu {
+    font-weight: bold;
+}
+
+.fa-search {
+    color: red;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.btn-search {
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    border: none;
+    border-radius: 40%;
+}
+
+
+.form-box {
+   border: none;
+}
+
+.search-box {
+    width: 40px;
+    height: 40px;
+    background: none;
+    border: none;
+    position: absolute;
+}
+
+.arrow-search {
+    position: absolute;
+    top: 10.5px;
+    left: 120px;
+    color: rgba(131, 124, 124, .5);
+}
+
+/* Fim Navbar */
+
+
+
+/* Section Principal */
+
+.info-text {
+    text-align: right;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.info-text h1 {
+    font-family: Poppins, sans-serif;
+    font-size: 33px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+}
+
+.info-text p {
+    margin-bottom: 2rem;
+}
+
+.btn-info-orc {
+    width: 350px;
+    height: 45px;
+    font-weight: 700;
+    background: rgb(255, 221, 137);
+    border: none;
+    border-radius: 10px;
+}
+
+/* Responsivo Section Principal */
+
+@media screen and (max-width: 1200px) {
+    .info-text {
+        text-align: center;
+    }
+
+    .start-50 {
+        transform: translate(-50%, -50%)!important;
+      }
+
+      .info-text p {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+
+    .info-text {
+        text-align: center;
+    }
+
+    .start-50 {
+        transform: translate(-50%, -50%)!important;
+      }
+
+    .info-text p {
+        display: none;
+    }
+
+    .info-text h1 {
+        font-size: 18px;
+        margin-bottom: 1rem;
+    }
+
+    .btn-info-orc {
+        width: 180px;
+        height: 30px;
+        font-size: 10px;
+    }
+}
+
+/* Fim Section Principal */
+
+
+
+/* Section Links */
+
+.links {
+    background-color: rgb(35, 31,31);
+    height: 180px;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 30px;
+}
+
+.links h5 {
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(255, 221, 137);
+    margin-bottom: 20px;
+}
+
+.btn-links {
+    width: 210px;
+    height: 45px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding-top: 12px;
+}
+
+.links1 {
+    background-color: rgb(31, 27, 28);
+}
+
+.links2 {
+    background-color: rgb(23, 20, 20);
+}
+
+.links3 {
+    background-color: rgb(15, 13, 13);
+}
+
+/* Responsivo Section Links */
+
+@media screen and (max-width: 1200px) {
+    .btn-links {
+        font-size: 12px;
+    }
+}
+
+/* Fim Section Links */
+
+
+
+/* Section Produtos */
+
+.bg-light-grey {
+    height: 720px;
+    background: rgb(235, 235, 235);
+    text-align: center;
+}
+
+.bg-light-grey h3 {
+    font-family: Poppins, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 95px;
+}
+
+.carousel-control-prev-icon-produtos,
+.carousel-control-next-icon-produtos {
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: 100% 100%;
+}
+
+.arrow-prev-prod,
+.arrow-next-prod {
+  width: 1%;
+  margin: -3%;
+  padding-bottom: 10%;
+}
+
+
+
+.fa-angle-left, .fa-angle-right {
+    font-size: 24px;
+    color: #000;
+  }
+
+  .ms-10 {
+    margin-bottom: 140px;
+  }
+
+  .me-10 {
+    margin-bottom: 140px;
+  }
+
+  .mt-10 {
+      margin-top: 95px;
+  }
+
+  .h5-text-produto {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(94, 94, 94);
+    margin-top: 20px;
+  }
+
+  .p-text-produto {
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
+
+  .p-text2-produto {
+    font-family: 'Open Sans', sans-serif;
+    font-size: .8rem;
+    color: rgb(179, 179, 179);
+  }
+
+  .p-text3-produto {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    text-decoration: line-through;
+    color: rgb(179, 179, 179);
+    margin-right: 10px;
+  }
+
+  /* Responsivo Section Produtos */
+
+  @media screen and (max-width: 1020px) {
+    .arrow-prev-prod,
+    .arrow-next-prod {
+      width: 15%;
+      padding-bottom: 10%;
+    }
+  }
+
+  /* Fim Section Produtos */
+
+
+
+  /* Section Whatsapp */
+
+  .whats-section {
+      width: 100%;
+      height: 380px;
+      padding-top: 40px;
+  }
+
+  .whats-conteudo {
+      height: 300px;
+      display: flex;
+      justify-content: center;
+      
+  }
+  
+  .conteudo-wp {
+    margin-left: 85px;
+  }
+
+  .conteudo-wp h2 {
+    font-family: Poppins, sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .conteudo-wp p {
+    font-family: Poppins, sans-serif;
+    font-size: 24px;
+    line-height: 60px;
+    margin-bottom: 60px;
+  }
+
+  .btn-info-wp {
+    width: 350px;
+    height: 45px;
+    font-weight: 700;
+    background: rgb(103, 187, 51);
+    border: none;
+    border-radius: 10px;
+    padding-top: 14px;
+}
+
+/* Responsivo Section Whatsapp */
+
+@media screen and (max-width: 1200px) {
+    .conteudo-wp {
+        margin: auto;
+        text-align: center;
+    }
+
+    .conteudo-wp p {
+        line-height: 30px;
+        margin-bottom: 20px;
+      }
+
+    .btn-info-wp {
+        width: 250px;
+    }
+}
+
+/* Fim Sectio Whatsapp */
+
+
+
+/* Section Formulário */
+
+.quebra {
+    height: 530px;
+    background: url(../images/bg-quebra.jpg) no-repeat;
+    background-size: cover;
+}
+
+.quebra-conteudo {
+    width: 53%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.text-quebra{
+    display: inline-block;
+}
+
+.h2-none {
+    display: none;
+    position: absolute;
+    width: 300px;
+    font-family: Poppins, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.h2-none span {
+    color: red;
+    font-size: 30px;
+}
+
+.quebra-form {
+    width: 500px;
+    display: inline-block;
+}
+
+.required::after {
+    content:" *"; 
+    color: red;
+  }
+
+.survey-form-1 {
+    display: flex;
+    justify-content: space-between;
+    width: 450px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+.form-nome, .form-sobrenome {
+    height: 60px;
+    width: 200px;
+}
+
+.form-nome input {
+    width: 200px;
+    display: block;
+    border: none;
+    border-radius: 5px;
+}
+
+.form-sobrenome input {
+    width: 200px;
+    display: block;
+    border: none;
+    border-radius: 5px;
+}
+
+.input-email {
+    width: 450px;
+    display: block;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.survey-form-2 {
+    display: flex;
+    justify-content: space-between;
+    width: 450px;
+    height: 60px;
+}
+
+.form-telefone, .form-curriculo {
+    height: 60px;
+    width: 200px;
+}
+
+.form-telefone input {
+    width: 200px;
+    display: block;
+    border: none;
+    border-radius: 5px;
+}
+
+.form-curriculo input {
+    width: 200px;
+    display: block;
+    border: none;
+    border-radius: 5px;
+}
+
+.text-quebra {
+    position: relative;
+    margin-right: 85px;
+}
+
+.text-quebra h2 {
+    font-family: Poppins, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.text-quebra p {
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: .05rem;
+    margin-top: 60px;
+}
+
+.h2-spn-red {
+    color: red;
+}
+
+.btn-form {
+    width: 450px;
+    border-radius: 10px;
+    margin-top: 30px;
+  }
+
+  /* Responsivo Section Formulário */
+
+@media screen and (max-width: 550px) {
+    .h2-none {
+        display: block;
+    }
+
+    .quebra-form {
+        flex-wrap: wrap;
+    }
+
+    .survey-form {
+        margin-top: 100px;
+    }
+
+    .survey-form-1 {
+        display: unset;
+    }
+    
+    .form-nome, .form-sobrenome {
+        height: 60px;
+        width: 200px;
+    }
+    
+    .form-nome input {
+        margin-bottom: 10px;
+    }
+
+    .label-email {
+        margin-top: 10px;
+    }
+    
+    .input-email {
+        width: 300px;
+        margin-bottom: 10px;
+    }
+    
+    .survey-form-2 {
+        display: unset;
+    }
+    
+    .form-telefone input {
+        margin-bottom: 10px;
+    }
+
+    .btn-form {
+        width: 300px;
+        border-radius: 10px;
+        margin-top: 30px;
+      }
+}
+
+/* Fim Section Formulário */
+
+
+
+/* Footer */
+
+footer {
+    background: rgb(35, 31, 31);
+    padding: 50px 0;
+    font-family: Poppins, sans-serif;
+    font-size: 12px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+
+}
+
+footer ul li {
+    list-style: none;
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.logo {
+    position: relative;
+    left: 360px;
+}
+
+.conteudo-footer {
+    margin-top: 30px;
+}
+
+.links-nav-footer ul li {
+    position: relative;
+    right: 30px;
+}
+
+.conteudo-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.links-nav-footer {
+    width: 160px;
+    padding: 20px;
+    margin-right: 10px;
+    font-weight: 600;
+}
+
+.redes-footer {
+    width: 200px;
+    padding: 20px;
+    margin-right: 10px;
+    font-weight: 600;
+}
+
+.redes-footer ul li {
+    position: relative;
+    right: 30px;
+    margin-bottom: 20px;
+}
+
+.redes-footer a {
+    display: inline-block;
+}
+
+.redes-footer p {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.redes-sociais ul li a {
+    margin-right: 20px;
+}
+
+.redes-sociais ul li a i {
+    font-size: 40px;
+    color: red;
+}
+
+.endereco {
+    width: 300px;
+    padding: 20px 0;
+}
+
+.endereco p {
+    margin-bottom: 12px;
+}
+
+.endereco span {
+    color: rgb(255, 221, 137);
+}
+
+.endereco p i {
+    margin-right: 10px;
+}
+
+.btn-wp {
+    position: relative;
+    left: 30px;
+}
+
+/* Responsivo Footer */
+
+@media screen and (max-width: 990px) {
+
+    footer {
+        padding: 5px 0;
+    }
+
+    .redes-footer {
+        width: 300px;
+        position: relative;
+        padding: 0px;
+        text-align: center;
+    }
+
+    .redes-footer p {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .redes-footer ul li {
+        display: inline;
+    }
+
+    .redes-footer ul li a {
+        padding-left: 40px;
+    }
+    
+    .redes-sociais ul li a i {
+        font-size: 60px;
+        color: red;
+        margin-bottom: 50px;
+    }
+}
+
+.copy {
+    width: 100%;
+    height: 45px;
+    background: rgb(15, 14, 14);
+    text-align: center;
+}
+
+/* Fim Footer */
+
+/* Botão p/ abrir chat */
+.open-button {
+  background: rgb(103, 187, 51);
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 20px 20px 0 0;
+  cursor: pointer;
+  position: fixed;
+  bottom: 0;
+  right: 28px;
+  width: 380px;
+}
+
+.open-button i {
+    margin-left: 30px;
+}
+
+/* Chat popup */
+.chat-popup {
+  display: none;
+  position: fixed;
+  font-family: Poppins, sans-serif;
+  font-weight:lighter;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  border-radius: 20px;
+  z-index: 9;
+}
+
+/* Formulário */
+.form-container {
+  max-width: 400px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+/* Textarea */
+.form-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  border-radius: 10px;
+  background: #fafafa;
+  resize: none;
+  min-height: 200px;
+}
+
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Botões enviar/cancelar */
+.form-container .btn {
+  background-color: rgb(103, 187, 51);
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+.form-container .cancel {
+  background-color: red;
+}
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
