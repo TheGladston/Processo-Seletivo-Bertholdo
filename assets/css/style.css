@@ -597,7 +597,8 @@ footer ul li {
 
 .logo {
     position: relative;
-    left: 360px;
+    width: 100px;
+    padding-left: 370px;
 }
 
 .conteudo-footer {
@@ -679,7 +680,7 @@ footer ul li {
 
 .btn-wp {
     position: relative;
-    left: 30px;
+    padding-left: 30px;
 }
 
 /* Responsivo Footer */
