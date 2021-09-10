@@ -113,6 +113,11 @@ header {
     background: rgb(255, 221, 137);
     border: none;
     border-radius: 10px;
+    padding-top: 10px;
+}
+
+.btn-info-orc:hover {
+    color: whitesmoke;
 }
 
 /* Responsivo Section Principal */
@@ -616,6 +621,9 @@ footer ul li {
     font-weight: 600;
 }
 
+.links-footer:hover {
+    color: rgb(255, 221, 137);
+}
 .redes-footer {
     width: 200px;
     padding: 20px;
@@ -646,6 +654,10 @@ footer ul li {
 .redes-sociais ul li a i {
     font-size: 40px;
     color: red;
+}
+
+.redes-sociais ul li a i:hover {
+    color: rgb(255, 221, 137);
 }
 
 .endereco {
